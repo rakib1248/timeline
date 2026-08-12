@@ -24,3 +24,50 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.toast-base {
+  font-family: 'Inter', sans-serif !important;
+  border-radius: 4px !important;
+}
+
+.toast-success {
+  background: #EAF1EC !important;
+  border: 0.5px solid #3E5C4A !important;
+  color: #1E3A2A !important;
+}
+.toast-success [data-icon] {
+  color: #3E5C4A !important;
+}
+
+.toast-error {
+  background: #F7EAE7 !important;
+  border: 0.5px solid #A34A3D !important;
+  color: #4A1F16 !important;
+}
+.toast-error [data-icon] {
+  color: #A34A3D !important;
+}
+
+.toast-warning {
+  background: #FAF2E1 !important;
+  border: 0.5px solid #C08A28 !important;
+  color: #4A340F !important;
+}
+.toast-warning [data-icon] {
+  color: #C08A28 !important;
+}
+
+.toast-info {
+  background: #E9EEF3 !important;
+  border: 0.5px solid #2C4A6B !important;
+  color: #12253A !important;
+}
+.toast-info [data-icon] {
+  color: #2C4A6B !important;
+}
+
+.toast-description {
+  color: #7A7566 !important;
+  font-size: 13px !important;
+}
