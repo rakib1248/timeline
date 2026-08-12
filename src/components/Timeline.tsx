@@ -42,7 +42,7 @@ function Timeline() {
         </button>
       </header>
 
-      <div className="w-full max-w-xl flex-1 overflow-y-auto px-4 py-4">
+      <div className="w-full max-w-xl flex-1 overflow-y-auto no-scrollbar px-4 py-4">
         <div className="flex flex-col gap-3 pb-6">
           <PostComposer isOpen={isOpen} setIsOpen={setIsOpen} />
           {posts.map((p) => (
