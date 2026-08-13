@@ -47,7 +47,7 @@ export function PostCard({ post }: { post: postType }) {
           style={{ backgroundColor: color, fontFamily: "'Fraunces', serif" }}>
           {initialsForName(post.name)}
         </div>
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0 flex-1 ">
           <div className="flex items-baseline gap-2">
             <p
               className="truncate text-[15px] font-semibold text-[#1E2A22]"
