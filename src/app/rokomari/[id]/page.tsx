@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
 import ProductDetailPage from "@/components/rokomari/ProductDetail";
 import { getRandomRelatedProducts } from "@/components/urils/randomproduct";
 import { products } from "@/data/product";
@@ -27,7 +28,8 @@ async function ProductSinglePage({ params }: Props) {
      );
     
   return (
-    <div>
+      <div>
+        
       <ProductDetailPage
         product={{
           ...singleProduct,
